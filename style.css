@@ -9,8 +9,12 @@ body {
     padding-top: 50px;
 }
 
-#first-info-col {
+#first-info-col-a {
     background: #FAFAFA;
+    padding: 40px;
+}
+
+#first-info-col-b {
     padding: 40px;
 }
 
@@ -54,6 +58,17 @@ button {
         width: 80px;
     }
 
+    .another-trial-image {
+        display: inline;
+        width: 80px;
+    }
+
+    .another-trial-p {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
     #bootcamp {
         display: none;
     }
@@ -95,6 +110,13 @@ button {
 }
 
 @media (min-width: 1200px) {
+
+    .another-trial-p {
+        margin-left: 5px;
+        display: inline;
+        margin-top: 0;
+    }
+    
 }
 
 @media (min-width: 1600px) {
