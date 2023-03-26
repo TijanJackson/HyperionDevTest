@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="buttonCheckFunc()">
 
     <div class="container" id="navbar-container">
 
@@ -48,7 +48,11 @@
             Your Progress (1/4 complete)
             <div class="row">
                 <div class="col-sm">
-                    <button type="button" class="btn btn-primary button mt-3">Industry Knowledge 1</button>
+                    <button id="progressBtnOne" type="button" class="btn btn-primary button mt-3 active-btn">Industry Knowledge 1 
+                        <svg id="tickOne" class="d-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                            <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>
+                    </button>
                 </div>
 
                 <div class="col-sm">
@@ -73,6 +77,7 @@
           </div>
         </div>
     </div>
+    <script src="index.js"></script>
     
 </body>
 </html>
