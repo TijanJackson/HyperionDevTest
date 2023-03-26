@@ -5,18 +5,39 @@ body {
 #navbar-container {
     background: grey;
 }
-#info-container {
+#info-container-1 {
     padding-top: 50px;
 }
 
 #first-info-col {
     background: #FAFAFA;
-    padding: 50px;
+    padding: 40px;
 }
 
 #second-info-col {
     background: grey;
     padding: 50px;
+}
+
+.btn-primary {
+    background: #fff !important;
+    color: #EE572A !important;
+    border: 1px solid #EE572A  !important;
+}
+
+.btn-primary:hover {
+    background: #EE572A !important;
+    color: #fff !important;
+}
+
+hr {
+    padding-top: 10px !important;
+    margin-top: 30px !important;
+}
+
+button {
+    font-size: 14px !important;
+    width: 180px;
 }
 
 @media (min-width: 320px) {
