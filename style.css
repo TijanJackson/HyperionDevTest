@@ -4,6 +4,7 @@ body {
 }
 
 #navbar-container {
+    /* background: grey !important; */
     background: #fff !important;
 }
 #info-container-1 {
@@ -13,6 +14,8 @@ body {
 #first-info-col-a {
     background: #FAFAFA;
     padding: 40px;
+    -webkit-box-shadow: 0 0 8px #e3dede;
+    box-shadow: 0 0 8px #e3dede;
 }
 
 #first-info-col-b {
@@ -20,6 +23,7 @@ body {
 }
 
 #second-info-col {
+    /* background: grey !important; */
     background: #fff !important;
     padding: 50px;
 }
