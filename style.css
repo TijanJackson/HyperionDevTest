@@ -3,14 +3,10 @@
     src: url("fonts/Avenir-Medium.ttf") format("truetype");
   }
 
-@font-face {
-    font-family:"Avenir-Heavy";
-    src: url("fonts/Avenir-Heavy.ttf") format("truetype");
-}
-
 body {
     /* background: grey !important; */
     background: #fff !important;
+    font-family: Avenir-Medium;
 }
 
 #navbar-container {
