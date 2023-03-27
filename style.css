@@ -52,6 +52,10 @@ body {
     padding: 50px;
 }
 
+#trial-btn {
+    width: 165px;
+}
+
 .btn-primary {
     background: #fff !important;
     color: #EE572A !important;
@@ -157,6 +161,11 @@ button {
         font-size: 10px !important;
         font-weight: bold !important;
     }
+
+    #trial-header { 
+        font-size: 15px;
+        font-weight: 500;
+    }
     
 }
 
@@ -211,6 +220,10 @@ button {
 
     .col-sm-4 {
         width: 80% !important;
+    }
+    
+    .trial-col {
+        width: 50% !important;
     }
 }
 
