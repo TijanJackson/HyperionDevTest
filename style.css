@@ -1,11 +1,11 @@
 body {
-    /* background: grey !important; */
-    background: #fff !important;
+    background: grey !important;
+    /* background: #fff !important; */
 }
 
 #navbar-container {
-    /* background: grey !important; */
-    background: #fff !important;
+    background: grey !important;
+    /* background: #fff !important; */
 }
 #info-container-1 {
     padding-top: 50px;
@@ -23,8 +23,8 @@ body {
 }
 
 #second-info-col {
-    /* background: grey !important; */
-    background: #fff !important;
+    background: grey !important;
+    /* background: #fff !important; */
     padding: 50px;
 }
 
@@ -55,6 +55,31 @@ button {
 
 .button-progress {
     width: 180px;
+}
+
+.button-progress:hover {
+    background: #fff !important;
+    color: #EE572A !important;
+    border: 1px solid #EE572A  !important;
+}
+
+.active-btn:hover {
+    background: #EE572A !important;
+    color: #fff !important;
+}
+
+.num {
+    color: #F0571B !important;
+    padding: 10px;
+}
+
+.num-paragraph {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.journey-row-1 {
+    margin-left: 300px;
 }
 
 @media (min-width: 320px) {
