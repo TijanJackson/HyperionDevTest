@@ -108,6 +108,11 @@ button {
 }
 
 @media (min-width: 320px) {
+
+    #menu-toggle {
+        margin-top: -5px;
+    }
+
     #logo { 
         width: 80px;
     }
@@ -134,12 +139,9 @@ button {
     #support {
         color: #000;
         display: inline;
-        font-size: 12px;
+        font-size: 11px;
+        margin-left: 5px;
         font-weight: bold;
-    }
-
-    #menu-toggle {
-        margin-top: -10px;
     }
 
     #user {
@@ -149,6 +151,11 @@ button {
     #profile {
         font-size: 10px;
         font-weight: bold;
+    }
+    
+    .toggle {
+        font-size: 10px !important;
+        font-weight: bold !important;
     }
     
 }
@@ -179,7 +186,10 @@ button {
     }
 
     #profile {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .toggle {
+        font-size: 14px !important;
     }
 
     .another-trial-p {
@@ -205,6 +215,10 @@ button {
 }
 
 @media (min-width: 768px) {
+
+    #menu-toggle {
+        margin-top: -10px;
+    }
 
     #logo { 
         width: 160px;
