@@ -1,3 +1,13 @@
+@font-face {
+    font-family:"Avenir-Medium";
+    src: url("fonts/Avenir-Medium.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family:"Avenir-Heavy";
+    src: url("fonts/Avenir-Heavy.ttf") format("truetype");
+}
+
 body {
     /* background: grey !important; */
     background: #fff !important;
@@ -13,7 +23,6 @@ body {
 }
 
 #user {
-    width: 21px;
     border-radius: 100%;
 }
 
@@ -74,7 +83,7 @@ button {
 }
 
 .button-progress {
-    width: 180px;
+    width: 200px;
 }
 
 .button-progress:hover {
@@ -104,11 +113,11 @@ button {
 
 @media (min-width: 320px) {
     #logo { 
-        width: 120px;
+        width: 80px;
     }
 
     #trial {
-        width: 80px;
+        width: 60px;
     }
 
     .another-trial-image {
@@ -129,6 +138,21 @@ button {
     #support {
         color: #000;
         display: inline;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #menu-toggle {
+        margin-top: -10px;
+    }
+
+    #user {
+        width: 12px;
+    }
+
+    #profile {
+        font-size: 10px;
+        font-weight: bold;
     }
     
 }
@@ -137,6 +161,16 @@ button {
 }
 
 @media (min-width: 425px) {
+
+    #user {
+        width: 21px;
+    }
+
+    #profile {
+        font-size: 16px;
+    }
+
+    
 }
 
 @media (min-width: 768px) {
@@ -149,7 +183,7 @@ button {
     }
 
     #trial {
-        width: 100px;
+        width: 90px;
     }
 
     #support {
