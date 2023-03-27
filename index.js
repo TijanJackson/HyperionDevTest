@@ -8,3 +8,8 @@ function buttonCheckFunc () {
         progressBtnOne.classList.add('active-btn');
     }
 }
+
+$("#menu-toggle").click(function(){
+    $(".toggle").toggle();
+    $(".navbar-nav").toggleClass('shadow-sm');
+  });

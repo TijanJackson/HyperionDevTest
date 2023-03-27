@@ -1,12 +1,32 @@
 body {
-    background: grey !important;
-    /* background: #fff !important; */
+    /* background: grey !important; */
+    background: #fff !important;
 }
 
 #navbar-container {
-    background: grey !important;
-    /* background: #fff !important; */
+    /* background: grey !important; */
+    background: #fff !important;
 }
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+#user {
+    width: 21px;
+    border-radius: 100%;
+}
+
+.toggle {
+    display: none;
+}
+
+.navbar-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 #info-container-1 {
     padding-top: 50px;
 }
@@ -23,8 +43,8 @@ body {
 }
 
 #second-info-col {
-    background: grey !important;
-    /* background: #fff !important; */
+    /* background: grey !important; */
+    background: #fff !important;
     padding: 50px;
 }
 
@@ -139,6 +159,9 @@ button {
     #bootcamp {
         color: #F0571B;
         display: inline;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 20px;
     }
 }
 
