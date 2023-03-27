@@ -5,13 +5,13 @@
 
 body {
     /* background: grey !important; */
-    background: #fff !important;
+    background: #fff;
     font-family: Avenir-Medium;
 }
 
 #navbar-container {
     /* background: grey !important; */
-    background: #fff !important;
+    background: #fff;
 }
 
 #menu-toggle {
@@ -48,8 +48,7 @@ body {
 }
 
 #second-info-col {
-    /* background: grey !important; */
-    background: #fff !important;
+    background: #fff;
     padding: 50px;
 }
 
@@ -76,6 +75,7 @@ hr {
 
 button {
     font-size: 14px !important;
+    font-weight: bold !important;
 }
 
 .button-progress {
@@ -117,7 +117,6 @@ button {
     }
 
     .another-trial-image {
-        display: inline;
         width: 80px;
     }
 
@@ -125,6 +124,7 @@ button {
         font-size: 12px;
         font-weight: bold;
         margin-top: 10px;
+        margin-left: 20px;
     }
 
     #bootcamp {
@@ -154,9 +154,25 @@ button {
 }
 
 @media (min-width: 375px) {
+    .another-trial-p {
+        margin-left: -10px;
+    }
+
+    .another-trial-image {
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 425px) {
+
+    #logo { 
+        width: 100px;
+    }
+
+    #support {
+        font-size: 14px;
+        margin-left: 20px;
+    }
 
     #user {
         width: 21px;
@@ -166,10 +182,62 @@ button {
         font-size: 16px;
     }
 
+    .another-trial-p {
+        margin-left: 40px;
+    }
     
 }
 
+@media (min-width: 576px) {
+    .another-trial-p {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1023px) {
+    .col-sm-8 {
+        width: 80% !important;
+    }
+
+    .col-sm-4 {
+        width: 80% !important;
+    }
+}
+
 @media (min-width: 768px) {
+
+    #logo { 
+        width: 160px;
+    }
+
+    #support {
+        display: none;
+    }
+
+
+    #bootcamp {
+        display: inline;
+        color: #F0571B;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    #trial-header {
+        font-size: 20px;
+    }
+
+    .another-trial-p {
+        font-size: 12px;
+        margin-left: -20px;
+        margin-top: 15px;
+    }
+
+    .another-trial-p {
+        margin-left: -20px;
+        margin-top: 5px;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -182,28 +250,32 @@ button {
         width: 90px;
     }
 
-    #support {
-        display: none;
+    #bootcamp {
+        font-size: 18px;
+        margin-left: 20px;
     }
 
-    #bootcamp {
-        color: #F0571B;
-        display: inline;
-        font-size: 18px;
-        font-weight: bold;
-        margin-left: 20px;
+    #second-info-col {
+        margin-top: -20px;
+    }
+
+    .another-trial-p {
+        margin-left: -40px;
+        margin-top: 5px;
     }
 }
 
 @media (min-width: 1200px) {
 
     .another-trial-p {
-        margin-left: 5px;
-        display: inline;
-        margin-top: 0;
+        margin-left: -70px;
+        margin-top: 15px;
     }
     
 }
 
 @media (min-width: 1600px) {
+    .another-trial-p {
+        margin-left: -100px;
+    }
 }
