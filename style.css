@@ -1,12 +1,17 @@
 @font-face {
     font-family:"Avenir-Medium";
     src: url("fonts/Avenir-Medium.ttf") format("truetype");
-  }
+}
 
-  @font-face {
+@font-face {
     font-family:"Avenir-Light";
     src: url("fonts/Avenir-Light.ttf") format("truetype");
-  }
+}
+
+@font-face {
+    font-family:"Avenir-Next";
+    src: url("fonts/Avenir-Next.ttf") format("truetype");
+}
 
 body {
     /* background: grey !important; */
@@ -130,6 +135,25 @@ button {
     margin-left: 300px;
 }
 
+#journey {
+    display: inline;
+}
+
+#question {
+    text-align: center;
+    font-family: Avenir-Medium;
+    width: 1px;
+    height: 26px;
+    padding-right: 18px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-left: -120px;
+    font-weight: 500;
+    color: #8F8F8F;
+    border: 1px solid #8F8F8F;
+    border-radius: 50%;
+}
+
 @media (min-width: 320px) {
 
     #menu-toggle {
@@ -194,6 +218,10 @@ button {
     #progress-amount {
         font-size: 15px;
         font-weight: 500;
+    }
+
+    #question {
+        display: none;
     }
     
 }
@@ -306,6 +334,10 @@ button {
 
 @media (min-width: 1024px) {
 
+    #question {
+        display: inline;
+    }
+
     #logo { 
         width: 160px;
     }
@@ -341,5 +373,9 @@ button {
 @media (min-width: 1600px) {
     .another-trial-p {
         margin-left: -100px;
+    }
+
+    #question {
+        margin-left: -180px;
     }
 }
