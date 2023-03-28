@@ -10,8 +10,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
+<!-- This function onload of the page checks the boolean value of the progress button and changes the class accordingly -->
 <body onload="buttonCheckFunc()">
 
+    <!-- This is the container for the navigation bar -->
     <div class="container" id="navbar-container">
 
         <nav class="navbar navbar-default">
@@ -35,8 +37,10 @@
         </nav>
     </div>
 
+    <!-- This is the main container for the pages content -->
     <div class="container" id="info-container-1">
         <div class="row">
+          <!-- This is all the content in the first column -->
           <div class="col-12 col-sm-8">
             <div id="first-info-col-a">
 
@@ -117,12 +121,14 @@
 
           </div>
 
+          <!-- This is all the content in the second column -->
           <div id="second-info-col" class="col-12 col-sm-4">
             <div class="row">
                 <div class="col-sm-8">
                     <p id="journey" class="h6">Your coding journey</p>
                 </div>
 
+                <!-- This question mark section will only display for screen sizes equal to and above 1024px -->
                 <div class="col-sm-4">
                 </div><span id="question">?</span>
                 <div id="explain" class="explain-toggle">

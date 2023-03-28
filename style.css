@@ -45,6 +45,8 @@ body {
     font-size: 14px;
 }
 
+/* Hides the explaination div for the question mark section initially */
+
 .explain-toggle {
     display: none;
 }
@@ -168,6 +170,8 @@ button {
     border-radius: 50%;
 }
 
+/* Adjustments for small mobile screen sizes */
+
 @media (min-width: 320px) {
 
     #menu-toggle {
@@ -240,6 +244,8 @@ button {
     
 }
 
+/* Adjustments for medium mobile screen sizes */
+
 @media (min-width: 375px) {
     .another-trial-p {
         margin-left: -10px;
@@ -249,6 +255,8 @@ button {
         margin-bottom: 10px;
     }
 }
+
+/* Adjustments for large mobile screen sizes */
 
 @media (min-width: 425px) {
 
@@ -284,6 +292,8 @@ button {
     }
 }
 
+/* Some styling adjustments for large mobile and tablet screen sizes START */
+
 @media (min-width: 576px) and (max-width: 1023px) {
     .col-sm-8 {
         width: 80% !important;
@@ -297,6 +307,11 @@ button {
         width: 50% !important;
     }
 }
+
+/* Some styling adjustments for large mobile and tablet screen sizes END */
+
+
+/* Adjustments for tablet screen sizes only*/
 
 @media (min-width: 768px) {
 
@@ -346,6 +361,8 @@ button {
 
 }
 
+/* Adjustments for small desktop screen sizes */
+
 @media (min-width: 1024px) {
 
     #question {
@@ -375,6 +392,8 @@ button {
     }
 }
 
+/* Adjustment for medium desktop screen sizes */
+
 @media (min-width: 1200px) {
 
     .another-trial-p {
@@ -384,6 +403,7 @@ button {
     
 }
 
+/* Adjustments for large desktop screen sizes */
 @media (min-width: 1600px) {
     .another-trial-p {
         margin-left: -100px;
