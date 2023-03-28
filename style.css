@@ -38,6 +38,21 @@ body {
     display: none;
 }
 
+#explain {
+    margin: 15px 0;
+    background-color: rgba(0,0,0,0.1);
+    padding: 15px;
+    font-size: 14px;
+}
+
+.explain-toggle {
+    display: none;
+}
+
+.explain-display {
+    display: block;
+}
+
 .navbar-nav {
     position: absolute;
     top: 0;
@@ -139,6 +154,7 @@ button {
 
 #question {
     text-align: center;
+    cursor: pointer;
     font-family: Avenir-Medium;
     width: 1px;
     height: 26px;

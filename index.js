@@ -13,3 +13,11 @@ $("#menu-toggle").click(function(){
     $(".toggle").toggle();
     $(".navbar-nav").toggleClass('shadow-sm');
   });
+
+  $("#question").mouseenter(function(){
+    $("#explain").toggleClass('explain-display');
+  });
+
+  $("#question").mouseleave(function(){
+    $("#explain").toggleClass('explain-display');
+  });
